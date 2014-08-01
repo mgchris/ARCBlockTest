@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2356DEA198C0736005CBD4D /* MGDBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2356DE9198C0736005CBD4D /* MGDBaseTableViewController.m */; };
+		C2A29E90198C19050067E1AD /* MGDQualifiersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A29E8F198C19050067E1AD /* MGDQualifiersTableViewController.m */; };
+		C2C5F1C21989F59000667892 /* MGDMemoryRetainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C5F1C11989F59000667892 /* MGDMemoryRetainTableViewController.m */; };
+		C2C5F1C7198A006200667892 /* MGDObjectLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C5F1C6198A006200667892 /* MGDObjectLogger.m */; };
 		C2EE62C319849ACC009B6093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EE62C219849ACC009B6093 /* Foundation.framework */; };
 		C2EE62C519849ACC009B6093 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EE62C419849ACC009B6093 /* CoreGraphics.framework */; };
 		C2EE62C719849ACC009B6093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EE62C619849ACC009B6093 /* UIKit.framework */; };
@@ -14,7 +18,6 @@
 		C2EE62CF19849ACC009B6093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EE62CE19849ACC009B6093 /* main.m */; };
 		C2EE62D319849ACC009B6093 /* MGDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EE62D219849ACC009B6093 /* MGDAppDelegate.m */; };
 		C2EE62D619849ACC009B6093 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EE62D419849ACC009B6093 /* Main_iPhone.storyboard */; };
-		C2EE62D919849ACC009B6093 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EE62D719849ACC009B6093 /* Main_iPad.storyboard */; };
 		C2EE62DC19849ACC009B6093 /* MGDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EE62DB19849ACC009B6093 /* MGDViewController.m */; };
 		C2EE62DE19849ACC009B6093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EE62DD19849ACC009B6093 /* Images.xcassets */; };
 		C2EE62E519849ACC009B6093 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EE62E419849ACC009B6093 /* XCTest.framework */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2356DE8198C0736005CBD4D /* MGDBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGDBaseTableViewController.h; sourceTree = "<group>"; };
+		C2356DE9198C0736005CBD4D /* MGDBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGDBaseTableViewController.m; sourceTree = "<group>"; };
+		C2A29E8E198C19050067E1AD /* MGDQualifiersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGDQualifiersTableViewController.h; sourceTree = "<group>"; };
+		C2A29E8F198C19050067E1AD /* MGDQualifiersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGDQualifiersTableViewController.m; sourceTree = "<group>"; };
+		C2C5F1C01989F59000667892 /* MGDMemoryRetainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGDMemoryRetainTableViewController.h; sourceTree = "<group>"; };
+		C2C5F1C11989F59000667892 /* MGDMemoryRetainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGDMemoryRetainTableViewController.m; sourceTree = "<group>"; };
+		C2C5F1C31989F64100667892 /* MGDHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGDHelper.h; sourceTree = "<group>"; };
+		C2C5F1C5198A006200667892 /* MGDObjectLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGDObjectLogger.h; sourceTree = "<group>"; };
+		C2C5F1C6198A006200667892 /* MGDObjectLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGDObjectLogger.m; sourceTree = "<group>"; };
 		C2EE62BF19849ACC009B6093 /* BlockMemoryChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockMemoryChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EE62C219849ACC009B6093 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2EE62C419849ACC009B6093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +58,6 @@
 		C2EE62D119849ACC009B6093 /* MGDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGDAppDelegate.h; sourceTree = "<group>"; };
 		C2EE62D219849ACC009B6093 /* MGDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGDAppDelegate.m; sourceTree = "<group>"; };
 		C2EE62D519849ACC009B6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		C2EE62D819849ACC009B6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		C2EE62DA19849ACC009B6093 /* MGDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGDViewController.h; sourceTree = "<group>"; };
 		C2EE62DB19849ACC009B6093 /* MGDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGDViewController.m; sourceTree = "<group>"; };
 		C2EE62DD19849ACC009B6093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -81,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2C5F1C4198A002900667892 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				C2C5F1C31989F64100667892 /* MGDHelper.h */,
+				C2356DE8198C0736005CBD4D /* MGDBaseTableViewController.h */,
+				C2356DE9198C0736005CBD4D /* MGDBaseTableViewController.m */,
+				C2C5F1C5198A006200667892 /* MGDObjectLogger.h */,
+				C2C5F1C6198A006200667892 /* MGDObjectLogger.m */,
+				C2EE62DA19849ACC009B6093 /* MGDViewController.h */,
+				C2EE62DB19849ACC009B6093 /* MGDViewController.m */,
+				C2C5F1C01989F59000667892 /* MGDMemoryRetainTableViewController.h */,
+				C2C5F1C11989F59000667892 /* MGDMemoryRetainTableViewController.m */,
+				C2A29E8E198C19050067E1AD /* MGDQualifiersTableViewController.h */,
+				C2A29E8F198C19050067E1AD /* MGDQualifiersTableViewController.m */,
+			);
+			name = Demos;
+			sourceTree = "<group>";
+		};
 		C2EE62B619849ACC009B6093 = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +143,10 @@
 		C2EE62C819849ACC009B6093 /* BlockMemoryChecker */ = {
 			isa = PBXGroup;
 			children = (
+				C2C5F1C4198A002900667892 /* Demos */,
 				C2EE62D119849ACC009B6093 /* MGDAppDelegate.h */,
 				C2EE62D219849ACC009B6093 /* MGDAppDelegate.m */,
 				C2EE62D419849ACC009B6093 /* Main_iPhone.storyboard */,
-				C2EE62D719849ACC009B6093 /* Main_iPad.storyboard */,
-				C2EE62DA19849ACC009B6093 /* MGDViewController.h */,
-				C2EE62DB19849ACC009B6093 /* MGDViewController.m */,
 				C2EE62DD19849ACC009B6093 /* Images.xcassets */,
 				C2EE62C919849ACC009B6093 /* Supporting Files */,
 			);
@@ -232,7 +259,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2EE62D919849ACC009B6093 /* Main_iPad.storyboard in Resources */,
 				C2EE62DE19849ACC009B6093 /* Images.xcassets in Resources */,
 				C2EE62D619849ACC009B6093 /* Main_iPhone.storyboard in Resources */,
 				C2EE62CD19849ACC009B6093 /* InfoPlist.strings in Resources */,
@@ -254,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2A29E90198C19050067E1AD /* MGDQualifiersTableViewController.m in Sources */,
 				C2EE62CF19849ACC009B6093 /* main.m in Sources */,
+				C2C5F1C7198A006200667892 /* MGDObjectLogger.m in Sources */,
+				C2C5F1C21989F59000667892 /* MGDMemoryRetainTableViewController.m in Sources */,
 				C2EE62D319849ACC009B6093 /* MGDAppDelegate.m in Sources */,
 				C2EE62DC19849ACC009B6093 /* MGDViewController.m in Sources */,
+				C2356DEA198C0736005CBD4D /* MGDBaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +323,6 @@
 				C2EE62D519849ACC009B6093 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		C2EE62D719849ACC009B6093 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2EE62D819849ACC009B6093 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		C2EE62ED19849ACC009B6093 /* InfoPlist.strings */ = {
@@ -395,6 +417,7 @@
 				GCC_PREFIX_HEADER = "BlockMemoryChecker/BlockMemoryChecker-Prefix.pch";
 				INFOPLIST_FILE = "BlockMemoryChecker/BlockMemoryChecker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,6 +431,7 @@
 				GCC_PREFIX_HEADER = "BlockMemoryChecker/BlockMemoryChecker-Prefix.pch";
 				INFOPLIST_FILE = "BlockMemoryChecker/BlockMemoryChecker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +495,7 @@
 				C2EE62F619849ACC009B6093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2EE62F719849ACC009B6093 /* Build configuration list for PBXNativeTarget "BlockMemoryCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +504,7 @@
 				C2EE62F919849ACC009B6093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

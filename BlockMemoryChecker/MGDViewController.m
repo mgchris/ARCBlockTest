@@ -7,7 +7,9 @@
 //
 
 #import "MGDViewController.h"
+#import "MGDHelper.h"
 
+#pragma mark -
 @interface MGDViewController ()
 
 @end
@@ -25,5 +27,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

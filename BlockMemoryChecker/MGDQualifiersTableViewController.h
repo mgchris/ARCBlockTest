@@ -10,4 +10,6 @@
 
 @interface MGDQualifiersTableViewController : MGDBaseTableViewController
 
+@property (nonatomic, strong) NSString* someString;
+
 @end

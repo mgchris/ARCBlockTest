@@ -43,6 +43,7 @@
     [self.cellContent addCellItemWithTitle:@"Example 2" withDetailText:@"Like 1 but with __block" withSelector:@selector(example2)];
     [self.cellContent addCellItemWithTitle:@"Example 3" withDetailText:@"Like 1 and 2, but with __weak" withSelector:@selector(example3)];
     [self.cellContent addCellItemWithTitle:@"Example 4" withDetailText:@"Controller could be gone, when called" withSelector:@selector(example4)];
+    [self.cellContent addCellItemWithTitle:@"Example 5" withDetailText:@"Does object copy or is passed by reference, with no qualifier" withSelector:@selector(example5)];
 }
 
 
@@ -115,12 +116,29 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), block);
 }
 
+- (void)example5 {
+    
+    MGDObjectLogger *logger = [[MGDObjectLogger alloc] init];
+    logger.string = @"What's up doc?";
+    
+    MGDVoidBlock block = ^() {
+        NSLog(@"In Block -  logger: %p  string: %@", logger, logger.string);
+    };
+    
+    NSLog(@"1: logger: %p string: %@", logger, logger.string);
+    block();
+    
+    logger.string = @"Your soul!";
+    NSLog(@"2: logger: %p string: %@", logger, logger.string);
+    block();
+    
+    NSLog(@"Waiting...\n");
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), block);
+}
+
 #pragma mark -
 - (void)printSomething {
     NSLog(@"%s %@", __PRETTY_FUNCTION__, self);
 }
-
-
-
 
 @end

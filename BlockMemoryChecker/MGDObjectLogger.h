@@ -13,6 +13,7 @@ typedef void(^MGDObjectLoggerBlock)(void);
 @interface MGDObjectLogger : NSObject
 @property (nonatomic, assign) NSInteger number;
 @property (nonatomic, strong) NSData * data;
+@property (nonatomic, strong) NSString* string;
 @property (nonatomic, strong) id holdOnTo;
 @property (nonatomic, copy) MGDObjectLoggerBlock block;
 
